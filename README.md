@@ -13,3 +13,16 @@ The dataset is composed of vehicle images, where an image contains a vehicle of 
 ## Code Description
 For our approach we used a state of the art model for object detection model YOLO. We used an implementation of yolov5 by ultralytics and then customized some part of it. First, we needed to convert the VOC (.csv) labelling to YOLO trainable format (.txt). It was done with Data Preprocessing Notebook. Then we trained with ```(Training_Model)YOLOv5_(Custom)_Dhaka_Traffic_Detection_Starter_Notebook.ipynb``` notebook. Overall, for final submission we trained 4 different model with different target resolutuion and folding and then ensembeled these four weights in the inference. The custom version of yolov5 is also provided with this repository in Custom yolov5 folder.
 
+## Team Members
+Raian Rahman
+
+Dept. of Computer Science and Engineering 
+
+Islamic University of Technology
+
+Zadid Bin Azad
+
+Dept. of Computer Science and Engineering 
+
+Islamic University of Technology
+
